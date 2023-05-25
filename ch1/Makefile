@@ -16,5 +16,8 @@ hello_world: hello_world.o
 square: square.o
 	$(CXX) $(CXXFLAGS) square.cpp -o square.o
 
+function_overload: function_overloading.o
+	$(CXX) $(CXXFLAGS) function_overloading.cpp -o function_overloading.o
+
 
 # end
