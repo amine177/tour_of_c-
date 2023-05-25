@@ -13,5 +13,8 @@ hello: hello.o
 hello_world: hello_world.o
 	$(CXX) $(CXXFLAGS) hello_world.cpp -o hello_world.o
 
+square: square.o
+	$(CXX) $(CXXFLAGS) square.cpp -o square.o
+
 
 # end
