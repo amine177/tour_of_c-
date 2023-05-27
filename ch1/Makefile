@@ -5,7 +5,7 @@
 # @version 0.1
 
 CXX = g++
-CXXFLAGS = -std=c++20 -fmodules-ts
+CXXFLAGS = -std=c++23 -fmodules-ts
 
 hello: hello.o
 	$(CXX) hello.cpp -o hello.o
@@ -18,6 +18,9 @@ square: square.o
 
 function_overload: function_overloading.o
 	$(CXX) $(CXXFLAGS) function_overloading.cpp -o function_overloading.o
+
+initialization: initialization.o
+	$(CXX) $(CXXFLAGS) initialization.cpp -o initialization.o
 
 
 # end
