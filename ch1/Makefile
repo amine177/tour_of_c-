@@ -22,5 +22,9 @@ function_overload: function_overloading.o
 initialization: initialization.o
 	$(CXX) $(CXXFLAGS) initialization.cpp -o initialization.o
 
+count_occurences: count_occurences.o
+	$(CXX) $(CXXFLAGS) count_occurences.cpp -o count_occurences.o
+
+
 
 # end
